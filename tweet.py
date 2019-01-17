@@ -8,12 +8,7 @@ Consumer_key = '****'
 Consumer_secret = '****'
 Access_token = '****'
 Access_secret = '****'
-'''
-Consumer_key = '****'
-Consumer_secret = '****'
-Access_token = '****'
-Access_secret = '****'
-'''
+
 auth = tweepy.OAuthHandler(Consumer_key, Consumer_secret)
 auth.set_access_token(Access_token, Access_secret)
 
